@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+ background-color: black;
+
+}
+
+.a {
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+.a1{
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.b {
+    /* background-color: red; */
+    width: 600px;
+    position: absolute;
+    left: 30%;
+    top: 320px;
+    animation: colorAnimation 8s linear infinite;;
+}
+
+.b1{
+    height: 80px;
+    width: 80px; height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+@keyframes colorAnimation {
+  0%  { transform: rotate(0deg)}
+  100%{ transform: rotate(360deg)}
+}
